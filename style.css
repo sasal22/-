@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.films h2{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+.films{
+    padding-top: 20px;
+    background:#100e19;
+    width: 1200px;
+    
+}
+.genre__b li{
+    color: #8a8892;
+    line-height: 25px;
+    font-size: 13px;
+}
+.genre__b li:hover{
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.ul__left__top{
+    padding-bottom: 30px;
+}
+.genre__a{
+    padding-top: 20px;
+    color: #8a8892;
+    line-height: 25px;
+}
+.ul__right{
+    padding-left:20px ;
+    margin-right:100px ;
+}
+.ul__left{
+    margin-left:140px ;
+}
+.genre{
+    display: flex;
+}
+.films__big__left{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe__l{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+.subscribe__button{
+    width: 170px;
+    height: 30px;
+    color: white;
+    font-weight: 800;
+    background-color: #312b45;
+    border: none;
+    border-radius: 8px;
+}
+.subscribe{
+    width: 170px;
+    height:190px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+.ul__main{
+    display: flex;
+    justify-content: space-between;
+}
+.line__films{
+    width: 2px;
+    height: 220px;
+    background-color: #312b45;
+    margin-right:10px;
+}
+.genre__right{
+    display: flex;
+}
+
